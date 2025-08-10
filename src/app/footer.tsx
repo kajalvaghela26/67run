@@ -53,6 +53,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/privacy" className="hover:text-white">
+                  Societies
+                </a>
+              </li>
+              <li>
                 <a href="/terms" className="hover:text-white">
                   Für Veranstalter
                 </a>
@@ -68,12 +73,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/events" className="hover:text-white">
+                <a href="/contactAs" className="hover:text-white">
                   Kontakt
                 </a>
               </li>
               <li>
-                <a href="/support" className="hover:text-white">
+                <a href="/faq" className="hover:text-white">
                   FAQ
                 </a>
               </li>

@@ -11,11 +11,12 @@ export default function Header() {
       </div>
 
       <ul className="flex flex-col sm:flex-row gap-14 mr-50">
-        <li>Startseite</li>
+        <li><Link href={'/home'}>Startseite</Link></li>
         <li> <Link href={'/'}>Laufkalender</Link></li>
-        <li>Über uns</li>
-        <li>Vereine</li>
-        <li>Für Veranstalter</li>
+        <li><Link href={'/about'}>Über uns</Link></li>
+        <li> <Link  href={'/societies'} >Vereine</Link></li>
+        
+        <li><Link  href={'/organization'} >Für Veranstalter </Link></li>
       </ul>
       <div className="flex items-center gap-3">
         <svg
