@@ -10,13 +10,13 @@ export default function Header() {
         <Image src={Logo} alt="Logo" width={50} height={50} />
       </div>
 
-      <ul className="flex flex-col sm:flex-row gap-14 mr-50">
+      <ul className="flex flex-col sm:flex-row gap-10 mr-50">
         <li><Link href={'/home'}>Startseite</Link></li>
         <li> <Link href={'/'}>Laufkalender</Link></li>
         <li><Link href={'/about'}>Über uns</Link></li>
         <li> <Link  href={'/societies'} >Vereine</Link></li>
-        
         <li><Link  href={'/organization'} >Für Veranstalter </Link></li>
+        <li><Link  href={'/blog'} >Blog </Link></li>
       </ul>
       <div className="flex items-center gap-3">
         <svg

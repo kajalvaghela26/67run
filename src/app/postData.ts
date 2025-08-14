@@ -16,7 +16,10 @@ import img9 from "../Images/img9.jpg";
 import img10 from "../Images/img10.jpg";
 import img11 from "../Images/img11.jpg";
 import img12 from "../Images/img12.jpg";
-
+import blogImage1 from "../Images/blogImage1.jpg";
+import blogImage2 from "../Images/blogImage2.jpg";  
+import blogImage3 from "../Images/blogImage3.jpg";
+import blogImage4 from "../Images/blogImage4.jpg";
 export const posts = [
   {
     id: 1,
@@ -123,4 +126,29 @@ export const societiesData = [
   { img: img10, name: "Your Pace Or Mine Club" },
   { img: img11, name: "Dayton Running Club" },
   { img: img12, name: "6AM Run Club" },
+];
+
+
+
+export const blogData = [
+  {id:'1', img: blogImage1, name: "Jakarta 5K Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'2',img: blogImage2, name: "Fun Run Festival",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  {id:'3', img: blogImage3, name: "Outrun City Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'4',img: blogImage4, name: "3K Runnin Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  {id:'5', img: blogImage1, name: "Jakarta 5K Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'6',img: blogImage2, name: "Fun Run Festival",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  {id:'7', img: blogImage3, name: "Outrun City Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'8',img: blogImage4, name: "3K Runnin Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  {id:'9', img: blogImage1, name: "Jakarta 5K Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'10',img: blogImage2, name: "Fun Run Festival",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  {id:'11', img: blogImage3, name: "Outrun City Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'12',img: blogImage4, name: "3K Runnin Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+];
+
+
+export const blogDetailsData = [
+  {id:'1', img: blogImage1, name: "Jakarta 5K Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'2',img: blogImage2, name: "Fun Run Festival",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  {id:'3', img: blogImage3, name: "Outrun City Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
+  { id:'4',img: blogImage4, name: "3K Runnin Marathon",description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
 ];
